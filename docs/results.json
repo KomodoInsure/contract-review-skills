@@ -1,0 +1,223 @@
+{
+  "study": "Final development release comparison",
+  "date": "2026-11-14",
+  "solver": "gpt-6.1-sol",
+  "solver_effort": "medium",
+  "judge": "gpt-6.1-terra",
+  "judge_effort": "medium",
+  "cases": 4,
+  "source_families": 2,
+  "generations_per_arm_case": 1,
+  "judgments_per_output": 2,
+  "solver_calls": 12,
+  "grader_calls": 24,
+  "aggregate": {
+    "bare": {
+      "core_passes": 48,
+      "core_decisions": 48,
+      "core_percent": 100.0,
+      "quality_passes": 33,
+      "quality_decisions": 40,
+      "quality_percent": 82.5,
+      "overall_passes": 81,
+      "overall_decisions": 88,
+      "overall_percent": 92.04545454545455,
+      "mean_output_tokens": 2670.5,
+      "disputed_output_criteria": 1
+    },
+    "previous_skill": {
+      "core_passes": 47,
+      "core_decisions": 48,
+      "core_percent": 97.91666666666667,
+      "quality_passes": 32,
+      "quality_decisions": 40,
+      "quality_percent": 80.0,
+      "overall_passes": 79,
+      "overall_decisions": 88,
+      "overall_percent": 89.77272727272727,
+      "mean_output_tokens": 2871.75,
+      "disputed_output_criteria": 3
+    },
+    "release_candidate": {
+      "core_passes": 48,
+      "core_decisions": 48,
+      "core_percent": 100.0,
+      "quality_passes": 36,
+      "quality_decisions": 40,
+      "quality_percent": 90.0,
+      "overall_passes": 84,
+      "overall_decisions": 88,
+      "overall_percent": 95.45454545454545,
+      "mean_output_tokens": 2937.5,
+      "disputed_output_criteria": 2
+    }
+  },
+  "rows": [
+    {
+      "case": "psa_close",
+      "arm": "bare",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 9,
+      "quality_decisions": 10,
+      "disputed_criteria": [
+        "q3"
+      ],
+      "output_tokens": 1974,
+      "elapsed_seconds": 52.36267900466919
+    },
+    {
+      "case": "psa_close",
+      "arm": "previous_skill",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 9,
+      "quality_decisions": 10,
+      "disputed_criteria": [
+        "q3"
+      ],
+      "output_tokens": 1912,
+      "elapsed_seconds": 51.0564968585968
+    },
+    {
+      "case": "psa_close",
+      "arm": "release_candidate",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 10,
+      "quality_decisions": 10,
+      "disputed_criteria": [],
+      "output_tokens": 1762,
+      "elapsed_seconds": 47.197043895721436
+    },
+    {
+      "case": "psa_expand",
+      "arm": "bare",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 8,
+      "quality_decisions": 10,
+      "disputed_criteria": [],
+      "output_tokens": 3108,
+      "elapsed_seconds": 80.4593300819397
+    },
+    {
+      "case": "psa_expand",
+      "arm": "previous_skill",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 8,
+      "quality_decisions": 10,
+      "disputed_criteria": [],
+      "output_tokens": 3479,
+      "elapsed_seconds": 90.09041810035706
+    },
+    {
+      "case": "psa_expand",
+      "arm": "release_candidate",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 9,
+      "quality_decisions": 10,
+      "disputed_criteria": [
+        "q3"
+      ],
+      "output_tokens": 3888,
+      "elapsed_seconds": 100.11539816856384
+    },
+    {
+      "case": "partner_close",
+      "arm": "bare",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 8,
+      "quality_decisions": 10,
+      "disputed_criteria": [],
+      "output_tokens": 2577,
+      "elapsed_seconds": 66.94357872009277
+    },
+    {
+      "case": "partner_close",
+      "arm": "previous_skill",
+      "core_passes": 11,
+      "core_decisions": 12,
+      "quality_passes": 7,
+      "quality_decisions": 10,
+      "disputed_criteria": [
+        "c4",
+        "q1"
+      ],
+      "output_tokens": 3078,
+      "elapsed_seconds": 80.07800698280334
+    },
+    {
+      "case": "partner_close",
+      "arm": "release_candidate",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 9,
+      "quality_decisions": 10,
+      "disputed_criteria": [
+        "q3"
+      ],
+      "output_tokens": 2727,
+      "elapsed_seconds": 71.3318281173706
+    },
+    {
+      "case": "partner_expand",
+      "arm": "bare",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 8,
+      "quality_decisions": 10,
+      "disputed_criteria": [],
+      "output_tokens": 3023,
+      "elapsed_seconds": 78.33445382118225
+    },
+    {
+      "case": "partner_expand",
+      "arm": "previous_skill",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 8,
+      "quality_decisions": 10,
+      "disputed_criteria": [],
+      "output_tokens": 3018,
+      "elapsed_seconds": 78.40513515472412
+    },
+    {
+      "case": "partner_expand",
+      "arm": "release_candidate",
+      "core_passes": 12,
+      "core_decisions": 12,
+      "quality_passes": 8,
+      "quality_decisions": 10,
+      "disputed_criteria": [],
+      "output_tokens": 3373,
+      "elapsed_seconds": 87.20542907714844
+    }
+  ],
+  "interpretation": "Descriptive model judgments on familiar authored cases. No confidence interval, independent holdout or general superiority claim. Core and quality criteria fixed before this run; earlier results not pooled.",
+  "judgment_sensitivity": {
+    "type": "observed complete-judgment selection, not confidence interval",
+    "candidate_minus_bare_pp": [
+      0.0,
+      6.818181818181824
+    ]
+  },
+  "released_skill_files_sha256": {
+    "SKILL.md": "ad74db25398844c6d8c4245154ae52bdc35fe752d2e2779a3e1d02f7d68dbc5b",
+    "agents/openai.yaml": "1c742b943bf6cc034e367373b5e15aaaeeaf26fdc4d83da0175e11529ce8a90c",
+    "references/contract-types/nda.md": "a81829ea451918af257eca0d4bfbfc2df3c235c20062c54dd28dd2d15f643e55",
+    "references/contract-types/saas.md": "abe5e2f7a97665104dc2f68303b44e2499986f60552885586b49e9af51aa1c71",
+    "references/contract-types/services.md": "ea7f7a3b3ad07d693e3c64134504e66d50ee2be0afc8743e3b2a1db87a29c023",
+    "references/document-verification.md": "a4b8dedfa994b88dac5b38ed2e600e45c9d81f9bca4a04517224abe2713661a8",
+    "references/examples/negotiation-rounds.md": "84f64985703bc86f751f4267d05f07b7e43cf5b25fb6657874ad293f511f543f",
+    "references/examples/worked-reviews.md": "c1c0d2ed0397b13f05cdf01d99869ec263dd6577449dbecbfe98bd03c12d2b0f",
+    "references/issues/data-confidentiality-and-ai.md": "cf7f1df1174b75717d3e40fbafb267812461250477315b90429890494da29c7b",
+    "references/issues/indemnification.md": "e978ad60948dd1b53bc4c7f26b77c7da10b481236df5513878eb4e44b30592a9",
+    "references/issues/intellectual-property.md": "088a223f42f6beaf3b62a04591f847c378ae064538566ced54eb55b35e04a97a",
+    "references/issues/liability-and-remedies.md": "c66b598266dbfa3bdb50dbbf7a8c9a219d65696c5e2424603458182a5ea888ce",
+    "references/sources.md": "75d3dd2977549aa219bc7320dc123e1034c7d48aad7bcad593821e3f584a9aac"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract Review"
+  short_description: "Evidence-grounded commercial contract review"
+  default_prompt: "Use $contract-review to review this agreement against the supplied deal facts and playbook, with targeted edits and explicit unresolved decisions."
