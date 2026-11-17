@@ -10,6 +10,7 @@ Start from the actual service and deployment. Identify hosted access versus a so
 - A “fees paid” cap can be small early in the term; distinguish paid, payable, all orders and the affected service. A lookback anchored to a claim is different from one anchored to an event.
 - Separate use needed to deliver the service from product improvement, model training, marketing, benchmarking and onward disclosure. Resolve customer content, usage data and feedback definitions before judging permissions.
 - A DPA can control personal-data duties without overriding every commercial liability provision. Read the actual priority scope and any liability language.
+- A DPA or transfer clauses may carry a different governing law from the main agreement when data-protection law requires it. Check precedence and scope; the split alone is not a defect. See [governing law](../issues/governing-law-and-disputes.md).
 - On exit, check the export window, usable format, assistance, cost, continued access, deletion timing and backup/legal-retention exceptions. Do not promise technical behavior without owner confirmation.
 
 ## Review output

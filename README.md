@@ -31,6 +31,10 @@ In our final four-case development comparison using **Sol 6.1 at medium effort**
 
 These are model-graded results on familiar authored cases, not an independent legal-quality certification. The observed gain was concentrated in rationale completeness; some rationale failures remain, and judge-choice sensitivity includes a tie. Earlier development results were mixed. Read the [methodology, complete final comparison and limitations](docs/evaluation.md) before interpreting the numbers.
 
+## Judgment evals
+
+[Six authored SaaS cases](evals/README.md) test whether reviews reach the right substantive decision: governing law across customer tiers, an increased-liability cap with a vague trigger, and customer or regulator audit rights. In the [latest run](evals/results.md) the skill passed all six cases. The bare model passed five, with the difference concentrated in rationale quality.
+
 ## Scope
 
 This is review guidance, not a company playbook or automatic legal approval. Current-law conclusions need appropriate research and professional judgment. Native Word redlines require a capable host document tool; the reported evaluation tested text proposals, not Word editing or automatic reference routing.
