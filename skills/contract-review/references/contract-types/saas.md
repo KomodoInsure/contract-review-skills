@@ -13,6 +13,8 @@ Start from the actual service and deployment. Identify hosted access versus a so
 - A DPA or transfer clauses may carry a different governing law from the main agreement when data-protection law requires it. Check precedence and scope; the split alone is not a defect. See [governing law](../issues/governing-law-and-disputes.md).
 - On exit, check the export window, usable format, assistance, cost, continued access, deletion timing and backup/legal-retention exceptions. Do not promise technical behavior without owner confirmation.
 
+For recurring SaaS and AI asks (training on data, model vendors, output indemnity, SLAs, security schedules, insurance), see the [playbook index](../playbooks/README.md).
+
 ## Review output
 Translate technical and commercial facts into consequences: a customer cannot exercise non-renewal after learning the new price; a provider cannot meet an unsupported deletion commitment; an export right may be unusable after immediate suspension. Prefer those explanations to generic “vendor-friendly/customer-friendly” labels.
 
