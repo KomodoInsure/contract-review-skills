@@ -23,7 +23,7 @@ Then ask your agent to use `contract-review` with the agreement, your represente
 - **Evidence and authority:** separate missing documents, unresolved decisions, proposed terms and approved positions.
 - **Usable drafts:** provide anchored edits, external rationales and separate internal decisions; flag incomplete operative language.
 
-Supporting references cover services, SaaS, NDAs, liability, indemnification, IP, data and confidentiality. The installed package contains guidance and hypothetical examples, with no external service or API-key requirement.
+Supporting references cover services, SaaS, NDAs, liability, indemnification, IP, data and confidentiality, plus playbooks for eighteen recurring SaaS and AI negotiation asks. The installed package contains guidance and hypothetical examples, with no external service or API-key requirement.
 
 ## Release evaluation
 
@@ -33,7 +33,7 @@ These are model-graded results on familiar authored cases, not an independent le
 
 ## Judgment evals
 
-[Six authored SaaS cases](evals/README.md) test whether reviews reach the right substantive decision: governing law across customer tiers, an increased-liability cap with a vague trigger, and customer or regulator audit rights. In the [latest run](evals/results.md) the skill passed all six cases. The bare model passed five, with the difference concentrated in rationale quality.
+[Forty-two authored SaaS and AI cases](evals/README.md) test whether reviews reach the right substantive decision: six original cases, eighteen that exercise the [playbooks](skills/contract-review/references/playbooks/README.md), and eighteen held-out variants that change the deciding facts. In the [latest run](evals/results.md) the skill passed 41 of 42 cases (213/224 criteria) and the bare model passed 38 (207/224). On the held-out variants the skill passed 17 of 18 cases to bare's 15, with equal criterion totals. Its remaining weakness is over-elaborating when a change already matches policy.
 
 ## Scope
 
